@@ -378,11 +378,12 @@ int main() {
     fputs("<div class=\"square\">\n", htmlFile);
     getUptime(htmlFile);
     fputs("</div>\n", htmlFile);
-// 
+//
     fputs("<div class=\"square\">\n", htmlFile);
     getCurrentDateTime(htmlFile);
     fputs("</div>\n", htmlFile);
 // 
+
     fputs("<div class=\"square\">\n", htmlFile);
     getProcessorInfo(htmlFile);
     fputs("</div>\n", htmlFile);
@@ -399,6 +400,7 @@ int main() {
     // getMemoryInfo(htmlFile);
     fputs("</div>\n", htmlFile);
 // 
+
     fputs("<div class=\"square\">\n", htmlFile);
     getIOOperationsInfo(htmlFile);
     fputs("</div>\n", htmlFile);
@@ -407,14 +409,18 @@ int main() {
     getFileSystemInfo(htmlFile);
     fputs("</div>\n", htmlFile);
 // 
+
     fputs("<div class=\"square\">\n", htmlFile);
-    processList(htmlFile);
+    //processList(htmlFile);
     fputs("</div>\n", htmlFile);
+
 // 
+
     fputs("<div class=\"square\">\n", htmlFile);
     getDevicesAndGroups(htmlFile);
     fputs("</div>\n", htmlFile);
 // 
+
     fputs("<div class=\"square\">\n", htmlFile);
     getNetworkDevices(htmlFile);
     fputs("</div>\n", htmlFile);
