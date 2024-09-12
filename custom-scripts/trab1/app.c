@@ -219,7 +219,6 @@ void getIOOperationsInfo(FILE *htmlFile) {
     fprintf(htmlFile, "<p><strong>Disk I/O Info:</strong></p>\n");
     fprintf(htmlFile, "<p><strong>Read Speed:</strong> %.2f </p>\n", readSpeed);
     fprintf(htmlFile, "<p><strong>Write Speed:</strong> %.2f </p>\n", writeSpeed);
-
 }
 
 void getFileSystemInfo(FILE *htmlFile) {
@@ -288,7 +287,7 @@ void processList(FILE *htmlFile){
 }
     
 void getDevicesAndGroups(FILE *htmlFile) {
-    char buffer[BUFLEN];
+    char buffer[BUFLEN];''
     int isCharacterDevices = 0, isBlockDevices = 0;
 
     // Listando dispositivos de caractere
