@@ -1,1 +1,0 @@
-export PATH=$PATH:/workspaces/labsisop-buildroot-2024-02/output/host/bin
