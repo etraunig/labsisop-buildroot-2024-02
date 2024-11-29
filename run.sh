@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# linux 4.13.9
+export LINUX_OVERRIDE_SRCDIR=~/Documents/LabSisop/linux-4.13.9/
+
 # recompile qemu/buildroot
 make
 
